@@ -1,48 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../Strings/script.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    <h1>Strings</h1>
-        <p> Es un objeto que representa una serie de caracteres dentro de una cadena.<br>
-        Tiene 2 formas para hacer una string:</p>
-    <ul>
-        <li>Primera forma:
-            <p>
-                let nombre = 'Alex';
-            </p>
-        </li>
-        <li>Segunda forma:
-            <p>let saludo = new <i><strong>S</strong></i>tring('Hola Mundo')</p>
-        </li>
-    </ul>
-    <p><strong>Note: </strong>Al usar la segunda forma, este dira la cantidad de valores que tiene una</p>
-    <h2>Methods:</h2>
-    <ul>
-        <li><p><strong>Var.length: </strong>Dira el numero total de caracter</p></li>
-        <li><p><strong>Var.toUpperCase: </strong>Todo en mayuscula</p></li>
-        <li><p><strong>Var.toLowerCase: </strong>Todo en minuscula</p></li>
-        <li><p><strong>Var.includes: </strong>Si en la cadena hay x valor</p></li>
-        <li><p><strong>Var.trim: </strong>eliminara los espacios o caracteres del inicio y del fin</p></li>
-        <li><p><strong>Var.split: </strong>Separa los valores en un Array</p></li>
-    </ul>
-    <h2>Template String</h2>
-    <h3>Concatenar Strings</h3>
-    <p>Let var = 'Hello' + ' ' + 'Bro'</p>
-    <h3>Template</h3>
-    <p>Es como ['f'] de python donde se usa {} para poner adentro la variable y lo exprese, en JS se usa asi ${X} y comillas graves <strong>``</strong></p>
-    <p>
-        let nombre = 'Alex'<br>
-        let apelllido = 'Lozada'<br>
-        let saludo = `Hola ${nombre} ${apellido}`<br>
-    
-    lo bueno de usar `` es que automaticamente asigna el espacio
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JAVASCRIPT</title>
+    <!--Script-->
 
-    </p>
-</body>
+    <script src="script.js"></script>
+
+
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Style/style.css">
+
+    <!--Icons-->
+
+    <script src="https://kit.fontawesome.com/b7f27d0091.js" crossorigin="anonymous"></script>
+
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Press+Start+2P&family=The+Nautigal:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!--NAVBAR-->
+
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <p class="navbar-brand inactive">Arekkasu</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Apuntes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+
+    <!--Concepto-->
+
+    <section id="concept">
+        <div class="container-fluid">
+            <h1 class="concept-tittle">Strings</h1>
+            <p class="concept-text"> Es un objeto que representa una serie de caracteres dentro de una cadena.
+                Tiene 2 formas para hacer una string:</p>
+            <ul class="concept-text">
+                <li>Primera forma:</li>
+                <img src="/images/strings/primera_forma.png" alt="" class="code">
+                <li>Segunda forma:</li>
+                <img src="/images/strings/segunda_forma.png" alt="" class="code">
+            </ul>
+            <p class="concept-text"><span>Note: </span>Al usar la segunda forma, este dira la cantidad de valores que
+                tiene una</p>
+        </div>
+    </section>
+
+
+
+
+    <!--Ejemplo-->
+    <section id="explain">
+        <div class="container-fluid">
+            <h2>Methods:</h2>
+            <ul>
+                <li>
+                    <p class="concept-text"><span>Var.length: </span>Dira el numero total de caracter</p>
+                </li>
+
+                <img src="/images/strings/legnth.png" alt="" class="code">
+
+                <li>
+                    <p class="concept-text"><span>Var.toUpperCase: </span>Todo en mayuscula</p>
+                </li>
+
+                <img src="/images/strings/uppercase.png" alt="" class="code">
+
+                <li>
+                    <p class="concept-text"><span>Var.toLowerCase: </span>Todo en minuscula</p>
+                </li>
+
+                <img src="/images/strings/lower.png" alt="" class="code">
+
+                <li>
+                    <p class="concept-text"><span>Var.includes: </span>Si en la cadena hay x valor</p>
+                </li>
+
+                <img src="/images/strings/include.png" alt="" class="code">
+
+                <li>
+                    <p class="concept-text"><span>Var.trim: </span>eliminara los espacios o caracteres del inicio y del
+                        fin</p>
+                </li>
+
+                <img src="/images/strings/trim.png" alt="" class="code">
+
+                <li>
+                    <p class="concept-text"><span>Var.split: </span>Separa los valores en un Array</p>
+                </li>
+
+                <img src="/images/strings/split.png" alt="" class="code">
+
+            </ul>
+    </section>
+    </div>
+
+
+
+
+    <!--Section 2 Ejemplo-->
+
+    <section id="explain_two">
+        <div class="container-fluid">
+            <h2>Template String</h2>
+            <h3>Concatenar Strings</h3>
+            <p class="concept-text">Concatenar sirve para unir dos o mas Strings y generarlo como uno solo.</p>
+            <img src="/images/strings/concatenar.png" alt="" class="code">
+            <h3>Template</h3>
+            <p>Es como ['f'] de python donde se usa {} para poner adentro la variable y lo exprese, en JS se usa asi
+                ${X} y comillas graves <strong>``</strong></p>
+
+            <img src="/images/strings/template string.png" alt="" class="code">
+
+
+            <p class="concept-text">lo bueno de usar `` es que automaticamente asigna el espacio</p>
+
+
+            <img src="/images/strings/ejemplo.png" alt="" class="code">
+
+            <p class="concept-text">otro ejemplo de concatenacion:</p>
+
+            <img src="/images/strings/otra forma.png" alt="" class="code">
+
+        </div>
+    </section>
+
+    <!--Boton de lecciones-->
+    <section id="button_lesson">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 button_lesson"><a href="/index.html"><button type="button"
+                            class="btn btn-primary nohover" id="direction"><i
+                                class="fa-solid fa-arrow-left"></i>Inicio</button></a></div>
+                <div class="col-lg-6 button_lesson"><a href="/Avance/Tipos de datos/Strings/Strings.html"><button
+                            type="button" class="btn btn-primary nohover" id="direction">Strings<i
+                                class="fa-solid fa-arrow-right"></i></button></a></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+        <div class="container-fluid">
+            <i class="social-icon fa-brands fa-github fa-xl icon-color"></i></i>
+            <i class="social-icon fa-brands fa-instagram fa-xl icon-color"></i>
+            <i class="social-icon fa-solid fa-envelope fa-xl icon-color"></i>
+            <p class="p_contact">Arekkasu</p>
+        </div>
+    </section>
+
 </html>

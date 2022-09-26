@@ -32,7 +32,7 @@ const numero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 const pares = []
 console.log('Los pares')
 for(let i = 0; i < numero.length; i++){
-    if( numero[i] % 2 != 0){
+    if(numero[i] % 2 != 0){
         continue
     }
     pares.push(numero[i])

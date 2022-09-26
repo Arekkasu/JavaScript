@@ -1,24 +1,69 @@
 //Los 2 versiones de hacer String
+var espacio = ' ';
 let nombre = 'Alexander';      //1 - forma normal
 let apellido = 'Lozada';
 console.log(nombre);
 console.log(apellido);
+
+
 //---------------
  //Esta es la segunda forma, la cual es la formal y al usarla te dira cuantos valores hay en la cadena
 let strings = new String('Hola mundo')
-console.strings
+console.log(strings)
+
+console.log(espacio)
+
+
+//---------------
+
+
 //Metodos Strings
-console.log(
-    nombre.toUpperCase(),//Para poner en mayusculas
-    apellido.toLowerCase(),//para poner en minusculas
-    nombre.includes('a'),//Detecta si hay cierot caracter en la cadena, si hay sera True sino seta False
-    //------//
-    apellido = '     Lozada             ',
-    apellido.trim(),//trim sirve para eliminar los espacios del principio y final
-    //-----//
-    text = 'Hola, como estan todos',
-    text.split(",")//Para separar los caracteres en un Array.
-);
+
+console.log(nombre.length)//Para saber la cantidad de caracteres que tiene la cadena
+
+console.log(espacio)
+
+
+//Para poner en mayusculas
+
+console.log(nombre.toUpperCase())
+    
+console.log(espacio)
+
+
+//para poner en minusculas
+
+console.log(apellido.toLowerCase())
+
+console.log(espacio)
+
+//Include
+
+console.log(nombre.includes('a'))
+
+console.log(espacio)
+
+
+//trim
+
+apellido = '     Lozada             ',
+
+console.log(apellido)
+
+console.log(espacio)
+
+console.log(apellido.trim())
+
+console.log(espacio)
+
+//Split
+
+text = 'Hola, como estan todos',
+
+console.log(text)
+
+console.log(text.split(","))
+
 
 
 //Template Strings
@@ -26,15 +71,31 @@ console.log(
 //Concatenar
 
 let saludo = 'Hola' + ' ' + nombre;
+
 console.log(saludo) // Esta forma esta bien, pero puede ser confuso para entender el condigo en ocasiones
 
+console.log(espacio)
+
 //Template strings (el mejor)
+
 let saludo2 = `Hola a todos, mi nombre es ${nombre} ${apellido}`;
+
+
 console.log(saludo2) //En esta forma no es necesario hacer la suma de un espacio, automaticamente lo hara
+
+
+console.log(espacio)
+
 let ejemplo_1 = `Hola a todos
             muy bien
-como estan ahora`;//respeta hasta el flujo de como esta la candena
+como estan ahora`;
+
+
 console.log(ejemplo_1)
+
+console.log(espacio)
+
+
 //otras formas de concatenar
 let ejemplo_2 = '5';
     ejemplo_2 += '6';

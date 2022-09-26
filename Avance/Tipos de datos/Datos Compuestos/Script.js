@@ -1,4 +1,8 @@
 //Funciones
+
+
+
+
     //Declaracion
 function Nombre(){
     console.log('Esto es de la funcion de como declarar')
@@ -42,7 +46,13 @@ expresada()
 
 console.log('-----------------------------------------------------')
 
+
+
+
+
 //Arrays
+
+
 
     //como hacer un array
 
@@ -79,7 +89,14 @@ Gustos_Musica.forEach(function (el/*Nombre del elemento*/, index/*ID del element
 
 console.log('--------------------------------------------------')
 
+
+
+
+
 //Objetos
+
+
+
 
 //Como hacer un objeto
 
