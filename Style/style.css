@@ -277,6 +277,8 @@ text-ul{
   padding: 3% 3rem 9% 3rem;
 }
 
+
+/* Parte de imagenes*/
 .code{
   position: relative;
   width: 30%;
@@ -287,6 +289,9 @@ text-ul{
   width: 50%;
   margin: 2rem 0 2rem 20%;
 }
+
+/* Texto explicativo*/
+
 .code-p{
   text-align: justify;
   font-size: 1.35rem;
@@ -312,14 +317,13 @@ text-ul{
 }
 
 #direction{
-  font-size: 1.34rem;
-  height: 2.25rem;
-  width: 370px;
-  height: 50px;
+  font-size: 1.25rem;
+  text-align: center;
+  width: 70%;
 }
 
 .fa-arrow-left{
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .fa-arrow-right{
