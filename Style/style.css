@@ -97,9 +97,8 @@ text-ul{
 }
 
 .profile-photo{
-  width: 65%;
+  width: 70%;
   position: relative;
-  margin: 0 0 4rem 3rem;
   border-radius: 100%;
   z-index: 0;
 }
@@ -183,14 +182,17 @@ text-ul{
 
 #bot_text{
   font-family: 'Press Start 2P', cursive;
+  width: 70%;
 }
 
 .btn-primary{
-    margin: 1rem 0 0 8rem;
+
+    margin-bottom: 1rem;
+
     background-color: #7f5af0;
 
     border: #7f5af0;
-    width: 300px;
+
 }
 
 .btn-primary:hover{
@@ -244,7 +246,6 @@ text-ul{
 .p_contact{
   font-size: 1.3rem;
 }
-
 
 
 
