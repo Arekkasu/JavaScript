@@ -6,6 +6,11 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'League Spartan', sans-serif;
     color: #fffffe;
 }
+
+#text-head{
+  margin: 2rem 0 2rem 0;
+}
+
 a{
     font-family: 'League Spartan', sans-serif;
     color: #fffffe;
@@ -17,9 +22,12 @@ p{
 
 span{
   color: #2cb67d;
+  font-size: 1.3rem;
+  font-family: 'League Spartan', sans-serif;
 }
 ul{
   color:#fffffe;
+  font-family: 'League Spartan', sans-serif;
 }
 
 /* Listas */
@@ -245,7 +253,7 @@ text-ul{
 
 /*PLANTILLA DE NOTAS*/
 
-#concept .container-fluid{
+.concept .container-fluid{
   background-color: #16161a;
   padding: 2% 3rem 9% 3rem;
 }
@@ -263,7 +271,7 @@ text-ul{
 
 /**/
 
-#explain .container-fluid{
+.color_1 .container-fluid{
   background-color: #242629;
   padding: 3% 3rem 9% 3rem;
 }
@@ -271,9 +279,13 @@ text-ul{
 .code{
   position: relative;
   width: 30%;
-  margin: 2rem 0 2rem 28%;
+  margin: 2rem 0 2rem 32%;
 }
-
+.big-code{
+  position: relative;
+  width: 50%;
+  margin: 2rem 0 2rem 20%;
+}
 .code-p{
   text-align: justify;
   font-size: 1.35rem;
@@ -282,7 +294,7 @@ text-ul{
 
 /**/
 
-#explain_two .container-fluid{
+.color_2 .container-fluid{
   background-color: #16161a;
   padding: 3% 3rem 9% 3rem;
 }
@@ -313,3 +325,53 @@ text-ul{
   margin-left: 1rem;
 }
 
+/* Tablas */
+
+.table, th, td{
+  color: #fffffe;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.table th, td{
+  
+  padding: 1rem;
+  text-align: center;
+}
+
+.table th{
+  background-color: #222020d4;
+}
+
+.table .text-table{
+  font-size: 1rem;
+  color: #fffffe;
+  background-color: #3A3535;
+  border-radius: 5%;
+}
+
+.table{
+  margin-left: 22%;
+  width: 50%;
+}
+/*table, th, td{
+ /* border: 2px solid black;*/
+  /*border-collapse: collapse;*/
+/*}
+
+th, td{
+  
+  padding: 1rem;
+  text-align: center;
+}
+
+th{
+  background-color: #222020d4;
+}
+
+.text-table{
+  font-size: 1rem;
+  color: #fffffe;
+  background-color: #3A3535;
+  border-radius: 5%;
+}*/

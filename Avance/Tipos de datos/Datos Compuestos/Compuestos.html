@@ -1,13 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="Script.js"></script>
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JAVASCRIPT</title>
+    <!--Script-->
+
+    <script src="script.js"></script>
+
+
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Style/style.css">
+
+    <!--Icons-->
+
+    <script src="https://kit.fontawesome.com/b7f27d0091.js" crossorigin="anonymous"></script>
+
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Press+Start+2P&family=The+Nautigal:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
-</body>
+
+
+    <!--NAVBAR-->
+
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <p class="navbar-brand inactive">Arekkasu</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Apuntes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+
+    <!--Concepto-->
+    <section class="concept">
+        <div class="container-fluid">
+            <h1 id="text-head">Datos Compuestos:</h1>
+            <p class="concept-text">Los datos compuestos son los siguientes, Funciones, Objetos, Arrays y Clases</p>
+            <span>Ejemplo de una funcion:</span><br>
+            <img src="/images/Tipos de datos/Datos Compuestos/Ejemplo fnc.png" alt="" class="code">
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- Explicacion de tema pt 1 -->
+    <section class="color_1">
+        <div class="container-fluid">
+            <h1 id="text-head">Funciones</h1>
+            <p class="concept-text">Las funciones son un bloque de codigo propio, siendo diferente al entorno global,
+                estos pueden recibir parametros o puede devolver valores.</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/Ejemplo fnc.png" alt="" class="code">
+            <p class="concept-text">Lo bueno de usar una funcion es que no se hace repeticion de codigo simplemente se
+                realiza y se puede llamar poniendo el nombre de la funcion, en casa que tenga parametros se ponen en
+                parentesis si no tiene solo se dejan vacios, seria asi <span>Sumar(50, 40)</span> o
+                <span>Saludad()</span>, tambien una variable puede tener una funcion como valor; No toda funcion
+                requiere un <span>return</span> y las funciones solo ejecutaran el <span>primer return</span> que
+                aparezca en el codigo
+            </p>
+            <h3 id="text-head">Funcion Expresada VS Declarada: </h3>
+            <br>
+            <h4 id="text-head">Declarada</h4>
+            <img src="/images/Tipos de datos/Datos Compuestos/Funcion declarada.png" alt="" class="big-code">
+            <h4 id="text-head">Expresada o Anonima</h4>
+            <img src="/images/Tipos de datos/Datos Compuestos/Funcion expresada.png" alt="" class="big-code">
+            <p class="concept-text"><span>Funciones declaradas</span> pueden ser activadas hasta antes del bloque que se
+                creo la funcion, pero, <span>Funcion anonima/expresada</span> sucede que deber ser llamada si o si
+                despues de ser nombrada</p>
+    </section>
+    </div>
+
+
+
+
+    <!--Section 2 Ejemplo-->
+
+    <section class="color_2">
+        <div class="container-fluid">
+            <h1 id="text-head">Arrays (Arreglos)</h1>
+            <p class="concept-text">los arrays es un cojunto de datos ordenados por posiciones, asociados en una sola
+                variable, los arrays es como una Lista</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/Construir_Array.png" alt="" class="code">
+            <p class="concept-text"> los arrays se leen desde <span>0 al iniciar a contar los elementos</span>, es decir
+                si un array tiene 5 elementos al contarlos seria del <span>0 al 4</span>, siguen siendo los 5 elementos
+                <span>pero</span> no se cuenta desde el 1.<br> Un array tambien puede tener otro array adentro, otra
+                cosa que se puede hacer con un array es poder establecerlo sin que sea en una sola linea sino que sea
+                multiples lineas <span>Siempre y cuando esten separadas por comas.</span>
+            </p>
+            <img src="/images/Tipos de datos/Datos Compuestos/ejem_array.png" alt="" class="code">
+            <p class="concept-text">Para hacer <span>llamado</span> de un array simplemente se escribe el nombre de la
+                variable que le asignaste al Array</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/llama_arr.png" alt="" class="code">
+            <img src="/images/Tipos de datos/Datos Compuestos/console_arr.png" alt="" class="big-code">
+            <p class="concept-text">Si no quieres ver toda la lista de un array sino que quieres solo ver un elemento de
+                este, se hace poniendo el nombre del array y entre corchetes el ID del elemento.</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/Elemento_arr.png" alt="" class="code">
+            <p class="concept-text">En la imagen se mosotro como usarlo en un array dentro de un array, pero, para un
+                elemento simplementeseria array[id], pero, hay dos cosas que se tienen que saber para que no haya error
+                en el codigo, para saber si un elemento <span>pertenece</span> se usa <span>array.includes()</span>
+                sabiendo esto, para saber la ID del elemento se usa <span>arry.indexOf()</span></p>
+            <h2 id="text-head">Methods Arrays:</h2>
+            <h3 id="text-head">Array.length:</h3>
+            <p class="concept-text">Al usar este metodo devolvera la longitud del array</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/length.png" alt="" class="code">
+            <h3 id="text-head">Array.push(elemento):</h3>
+            <p class="concept-text">Este metodo sirve para agregar algun elemento al array</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/push.png" alt="" class="code">
+            <h3 id="text-head">Array.pop():</h3>
+            <p class="concept-text">Este metodo sirve para porder elminar el ultimo elemento de un array</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/pop.png" alt="" class="code">
+            <h3 id="text-head">Array.splice( id, elementos a borrar):</h3>
+            <p class="concept-text">Sirve para eliminar un elemento determinado de un array, siendo primero poner el ID
+                del elemento y despues de la coma poner cuantos elementos borrara hacia la derecha, siempre y cuando se
+                ponga 2 o mas.</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/splice.jpg" alt="" class="code">
+            <h3 id="text-head">Array.forEach(function (elemento, index){}):</h3>
+            <p class="concept-text">Es una funcion que recorrera todos los items de un array, agregando 2 parametros que
+                cumpliran como la id y el elemento del array</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/forEach.png" alt="" class="big-code">
+        </div>
+    </section>
+
+    <!--Parte 3-->
+    <section class="color_1">
+        <div class="container-fluid">
+            <h2 id="text-head">Objetos (Objects)</h2>
+            <p class="concept-text">Los obejetos son una coleccion de propiedad y cada propiedad esta asociada entre una
+                <span>clave</span> y un <span>valor</span>. El caso en que una propiedad tenga una funcion como valor
+                sera conocida como un <span>metodo</span>
+            </p>
+            <img src="/images/Tipos de datos/Datos Compuestos/object.png" alt="" class="big-code">
+            <p class="concept-text">Para poder <span>Llamar</span> un objeto simplemente se pone el nombre y mostrara
+                todo lo que contiene, pero si necesita saber el valor de una clave se pone <span>objeto.clave</span>; en
+                caso que exista una clave con valor array se haria de esta forma <span>objeto.clave[]</span>, en el
+                objeto de imagen,
+                la clave pasatiempos tiene como valor un array por lo cual si quieremos ver algun elemento del array se
+                usaria de esta manera, <span>user.pasatiempos[2]</span>, siendo videojuegos el valor lanzado</p>
+            <p class="concept-text">Para agregar una propiedad al objeto se pone <span>objeto[clave] = valor</span></p>
+            <img src="/images/Tipos de datos/Datos Compuestos/llamar_obj.png" alt="" class="code">
+            <h2 id="text-head">Metodos:</h2>
+            <h3 id="text-head">Object.keys:</h3>
+            <p class="concept-text">Con este metodo podemos obtener todos las claves pero sin su valor de un objeto</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/keys_ob.png" alt="" class="code">
+            <h3 id='text-head'>Object.values:</h3>
+            <p class="concept-text">Muestra solo los valores de los claves</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/valores_obj.png" alt="" class="code">
+            <h3 id="text-head">Objeto.hasOwnProperty(clave):</h3>
+            <p class="concept-text">Con este metodo sirve para conocer si la propiedad esta en el objeto</p>
+            <img src="/images/Tipos de datos/Datos Compuestos/hasproperty_obj.png" alt="" class="big-code">
+        </div>
+    </section>
+
+    <!--Parte 4-->
+
+
+
+    <section class="color_2">
+        <div class="container-fluid ">
+            <div class="row">
+                <h2>Operadores Aritmeticos:</h2>
+                <div class="col-lg-12 col-sm-12 table-responsive">
+                    
+                    <table class="table table-bordered table-responsive-sm">
+                        <tr>
+                            <th>Operador</th>
+                            <th>Descripcion</th>
+                            <th>Ejemplo</th>
+                        </tr>
+                        <tr>
+
+                            <td><span class="text-table">%</span></td>
+                            <td><span class="text-table">Modulo</span></td>
+                            <td><span class="text-table">10 % 2 = 0</span></td>
+                            </span>
+                        </tr>
+                        <tr>
+                            <td><span class="text-table">%</span></td>
+                            <td><span class="text-table">Modulo</span></td>
+                            <td><span class="text-table">10 % 2 = 0</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="text-table">i++</span></td>
+                            <td><span class="text-table">Incremento unario</span></td>
+                            <td><span class="text-table"> numero = 1
+                                    numero++ (2)
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="text-table">i--</span></td>
+                            <td><span class="text-table">Decremento unario</span></td>
+                            <td> <span class="text-table">numero = 2
+                                    numero-- (1)
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="text-table">-</span></td>
+                            <td><span class="text-table">Resta</span></td>
+                            <td><span class="text-table">5-6 = 1</span></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-lg-12 col-sm-12">
+                    <!--  Comparacion  -->
+                    <h2>Operadores Comparacion:</h2>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Operador</th>
+                            <th>Descripcion</th>
+                            <th>Ejemplo</th>
+                        </tr>
+                        <tr>
+
+                            <td><span class="text-table">==</span></td>
+                            <td><span class="text-table">Es una igualdad de valor sin importar su tipo de dato.</span>
+                            </td>
+                            <td><span class="text-table">10 == '10' (True)</span></td>
+                            </span>
+                        </tr>
+                        <tr>
+                            <td><span class="text-table">===</span></td>
+                            <td><span class="text-table">Estrictamente igual evalua el valor y que sean tambien su mismo
+                                    tipo de
+                                    dato.</span></td>
+                            <td><span class="text-table">10 === '10' (False)</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="text-table">!=</span></td>
+                            <td><span class="text-table">Es una desigualdad de valor sin importar su tipo de
+                                    dato.</span></td>
+                            <td><span class="text-table"> 2 != '2' (false)
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="text-table">!==</span></td>
+                            <td><span class="text-table">Estrictamente desigual evalua el valor y que sean tambien
+                                    desigual su
+                                    tipo de dato.</span></td>
+                            <td> <span class="text-table"> 2 !== '2' (True) </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="text-table">-</span></td>
+                            <td><span class="text-table">Resta</span></td>
+                            <td><span class="text-table">5-6 = 1</span></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <!--Boton de lecciones-->
+    <section id="button_lesson">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 button_lesson"><a
+                        href="/Avance/Tipos de datos/Numeros/numeros,booleanos  yNull.html"><button type="button"
+                            class="btn btn-primary nohover" id="direction"><i
+                                class="fa-solid fa-arrow-left"></i>Numeros, Booleanos y Null</button></a></div>
+                <div class="col-lg-6 button_lesson"><a href="/Avance/Tipos de datos/Strings/Strings.html"><button
+                            type="button" class="btn btn-primary nohover" id="direction">Estructuras de control<i
+                                class="fa-solid fa-arrow-right"></i></button></a></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+        <div class="container-fluid">
+            <i class="social-icon fa-brands fa-github fa-xl icon-color"></i></i>
+            <i class="social-icon fa-brands fa-instagram fa-xl icon-color"></i>
+            <i class="social-icon fa-solid fa-envelope fa-xl icon-color"></i>
+            <p class="p_contact">Arekkasu</p>
+        </div>
+    </section>
+
+</html>
+
 </html>
