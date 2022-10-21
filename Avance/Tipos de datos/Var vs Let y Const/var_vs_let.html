@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>JAVASCRIPT</title>
-        <!--Script-->
 
-        <script src="script.js"></script>
-        
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JAVASCRIPT</title>
+    <!--Script-->
 
-        <!--ESTILOS-->
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="/Style/style.css">
+    <script src="script.js"></script>
 
-        <!--Icons-->
 
-        <script src="https://kit.fontawesome.com/b7f27d0091.js" crossorigin="anonymous"></script>
-        
-        
-        <!--FONTS-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Press+Start+2P&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
-    </head>
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Style/style.css">
+
+    <!--Icons-->
+
+    <script src="https://kit.fontawesome.com/b7f27d0091.js" crossorigin="anonymous"></script>
+
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Press+Start+2P&family=The+Nautigal:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
 
 <body>
 
@@ -64,57 +71,82 @@
     <section class="concept">
         <div class="container-fluid">
             <h1 class="concept-tittle">Var, Let y Const</h1>
-            <p class="concept-text"><span>Var</span>, se usa pra declarar las variables en JS, donde Var es en ambito global del
+            <p class="concept-text"><span>Var</span>, se usa para declarar las variables en JS, donde Var es en ambito
+                global del
                 codigo, mientras
-                que <span>Let</span> es mas adecuado para determinado bloques y <span>const</span> se usa como una constante, osea, su valor no se
+                que <span>Let</span> es mas adecuado para determinado bloques y <span>const</span> se usa como una
+                constante, osea, su valor no se
                 puede redeclarar, <span>PERO</span>, con los arrays y objetos si se puede ir 'Modificando'.<br><br>
-            
+
                 Recuerda presionar <span>CTRL + shift + I</span> para ver la consola.</p>
+                <div class="col-lg-12 col-sm-12  text-center">
                 <img class='consola' src="/images/Tipos de datos/Consola.jpg" alt="Consola.jpg">
+                </div>
+
         </div>
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
     </section>
-    
-    
-    
-    
+
+
+
+
     <!--Ejemplo-->
     <section class="color_1">
         <div class="container-fluid">
             <h2>Declaracion:</h2>
-            <p class="code-p">Se muestra como se puede declarar una variable, recuerda que una variable puede ser tipo <span>Array, Object, String, Number, Float</span>:</p>
-            <img src="/images/Tipos de datos/Declaracion_Variable.png" alt="declaracion_variables" class="code">
+            <p class="code-p">Se muestra como se puede declarar una variable, recuerda que una variable puede ser tipo
+                <span>Array, Object, String, Number, Float</span>:
+            </p>
+
+            <div class="col-lg-12 col-sm-12  text-center">
+                <img src="/images/Tipos de datos/Declaracion_Variable.png" alt="declaracion_variables" class="code">
+            </div>
             <h2>Uso de Var y Let:</h2>
-            <img src="/images/Tipos de datos/var, let.png" alt="" class="code">
-            <p class="code-p">Este es un ejemplo en el cual muestra lo importante de saber usar VAR y LET, por que?, en la linea
-                15 declaramos musica que tenga como valor un String y que diga 'Rock', al mandarlo que imprima en la consola, este dira que 'el Genero es: rock'
-                , pero, cuando abrimos un bloque de codigo y usamos Let y declaramos que musica sera 'Heavy Metal' y al imprimirlo dara como salaida 'El genero es: Heavy Metal',
-                , sin embargo, cuando nos salimos del bloque de codigo, musica volvera a tener como valor Rock
+            <div class="col-lg-12 col-sm-12  text-center">
+                <img src="/images/Tipos de datos/var, let.png" alt="" class="code">
+            </div>
+                <p class="code-p">Este es un ejemplo en el cual muestra lo importante de saber usar <span>VAR y LET</span>, ¿por que?, en
+                la linea
+            <span>15</span> declaramos musica que tenga como <span>valor un String</span> y que diga <span>'Rock'</span>, al mandarlo que imprima en la
+                consola, este dira que <span>'el Genero es: rock'</span>,
+                pero, cuando abrimos un bloque de codigo y usamos <span>Let</span> y declaramos que musica sera <span>'Heavy Metal'</span> y al
+                imprimirlo dara como <span>salida 'El genero es: Heavy Metal'</span>,
+                , sin embargo, cuando nos salimos del bloque de codigo, musica <span>volvera a tener como valor Rock</span>.
             </p>
         </div>
     </section>
 
-    
+
 
 
 
     <!--Section 2 Ejemplo-->
 
-    <section id="explain_two">
+    <section class="color_2">
         <div class="container-fluid">
             <h2>Const:</h2>
-            <p class="code-p">En la siguiente imagen se demostrara el porque al declarar una variable <span>Const</span> y reasignarle un valor a este, dara error</p>
-            <img src="/images/Tipos de datos/Const.jpg" alt="" class="code">
-            <p class="code-p">Ahora al redeclarar el valor que tendra la variable pi a 15, sucede el siguiente error:</p>
-            <img src="/images/Tipos de datos/re_const.png" alt="" class="code">
-            <img src="/images/Tipos de datos/errorr.jpg" alt="" class="consola">
-            <p class="code-p">Otro punto es que nunca se debe iniciar con una variable <span>Const</span> que no tenga valor definido</p>
+            <p class="code-p">En la siguiente imagen se demostrara el porque al declarar una variable <span>Const</span>
+                y reasignarle un valor a este, dara error</p>
+            <div class="col-lg-12 col-sm-12  text-center">
+                <img src="/images/Tipos de datos/Const.jpg" alt="" class="code">
+            </div>
+            <p class="code-p">Ahora al redeclarar el valor que tendra la variable pi a 15, sucede el siguiente error:
+            </p>
+            <div class="col-lg-12 col-sm-12  text-center">
+                <img src="/images/Tipos de datos/re_const.png" alt="" class="code">
+            </div>
+            <div class="col-lg-12 col-sm-12  text-center">
+                <img src="/images/Tipos de datos/errorr.jpg" alt="" class="consola">
+            </div>
+            <p class="code-p">Otro punto es que nunca se debe iniciar con una variable <span>Const</span> que no tenga
+                valor definido</p>
+
         </div>
     </section>
 
@@ -122,10 +154,14 @@
     <section id="button_lesson">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 button_lesson text-center"><a href="/index.html" type="button" class="btn btn-primary nohover" id="direction"><i class="fa-solid fa-arrow-left"></i>Inicio</a></div>
-                <div class="col-lg-6 col-sm-12 button_lesson text-center"><a href="/Avance/Tipos de datos/Strings/Strings.html" type="button" class="btn btn-primary nohover" id="direction">Strings<i class="fa-solid fa-arrow-right"></i></a></div>
+                <div class="col-lg-6 col-sm-12 button_lesson text-center"><a href="/index.html" type="button"
+                        class="btn btn-primary nohover" id="direction"><i class="fa-solid fa-arrow-left"></i>Inicio</a>
+                </div>
+                <div class="col-lg-6 col-sm-12 button_lesson text-center"><a
+                        href="/Avance/Tipos de datos/Strings/Strings.html" type="button" class="btn btn-primary nohover"
+                        id="direction">Strings<i class="fa-solid fa-arrow-right"></i></a></div>
             </div>
-            </div>
+        </div>
         </div>
     </section>
 
@@ -133,10 +169,13 @@
     <section id="contact">
         <div class="container-fluid">
             <i class="social-icon fa-brands fa-github fa-xl icon-color"></i></i>
+
             <i class="social-icon fa-brands fa-instagram fa-xl icon-color"></i>
+
             <i class="social-icon fa-solid fa-envelope fa-xl icon-color"></i>
+
             <p class="p_contact">Arekkasu</p>
         </div>
     </section>
 
-    </html>
+</html>
