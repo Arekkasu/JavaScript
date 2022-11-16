@@ -12,11 +12,27 @@ var no_number = '5.6';
 
 // METHODS
 console.log(
+    
+    
     number_1.toFixed(1), // el numero es 3.333
+    
+    
+    
     typeof(no_number),  // Para saber el tipo de dato
+    
+    
+    
     parseFloat(no_number), //Hacer conversion a decimal
+    
+    
+    
     String(number_2), // Hacer conversion a cadena
+    
+    
+    
     parseInt(no_number) // Hacer conversion a entero
+    
+    
     )
 
 

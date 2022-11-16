@@ -5,7 +5,7 @@ var numero_ejm_2 = 10;
 // Condicion If
 
 if(numero_ejm > numero_ejm_2){
-    console.log('Es mayor');
+    console.log('Es Mayor');
     } else if(numero_ejm === numero_ejm_2){
     console.log('Es menor');
         } else {

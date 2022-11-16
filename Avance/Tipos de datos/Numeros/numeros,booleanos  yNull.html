@@ -8,7 +8,7 @@
     <title>JAVASCRIPT</title>
     <!--Script-->
 
-    <script src="script.js" defer></script>
+    <script src="/Avance/Tipos de datos/Numeros/scripts.js" defer></script>
 
 
     <!--ESTILOS-->
@@ -69,13 +69,20 @@
 
     <!--Concepto-->
 
-    <section id="concept">
+    <section class="concept">
         <div class="container-fluid">
             <h1 class="concept-tittle">Numeros</h1>
-            <p class="concept-text"> Los numeros son tipo entero, float, para declarar un numero hay 2 dos formas para hacerlo: </p>
-            <img src="/images/bool, Num/Declarar numero.jpg" alt="" class="code">
-            <p class="concept-text"><span>Note: </span>Para saber que tipo de dato es un valor se usa typeof(), en caso que veas un numero que este como tipo texto recuerda que no es un <span>NUMERO</span></p>
-            <img src="/images/bool, Num/NaN.jpg" alt="" class="code">
+            <p class="concept-text"> Los numeros son tipo entero, float, para declarar un numero hay 2 dos formas para
+                hacerlo: </p>
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/Declarar numero.jpg" alt="" class="code">
+            </div>
+            <p class="concept-text"><span>Note: </span>Cuando algun dato no sea tipo Int o Float arrogara
+                <span>NaN</span> que significa Not a Number
+            </p>
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/NaN.jpg" alt="" class="code">
+            </div>
         </div>
     </section>
 
@@ -83,14 +90,19 @@
 
 
     <!--Ejemplo-->
-    <section id="explain">
+    <section class="color_1">
         <div class="container-fluid">
             <h2>Booleanos</h2>
-            <p class='concept-text'> Los booleanos regresan 2 tipos de valores <span>True</span> y <span>False</span></p>
+            <p class='concept-text'> Los booleanos regresan 2 tipos de valores <span>True</span> y <span>False</span>
+            </p>
             <h4>Valores True:</h4>
-            <img src="/images/bool, Num/Truthi.jpg" alt="truthy" class="code">
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/Truthi.png" alt="truthy" class="code">
+            </div>
             <h4>Valores False:</h4>
-            <img src="/images/bool, Num/False.jpg" alt="false" class="code">
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/False.png" alt="false" class="code">
+            </div>
     </section>
     </div>
 
@@ -99,28 +111,40 @@
 
     <!--Section 2 Ejemplo-->
 
-    <section id="explain_two">
+    <section class="color_2">
         <div class="container-fluid">
             <h2>Algunos methods</h2>
             <h3>toFixed():</h3>
             <p class="concept-text">Sirve para saber cuantos decimales uno quiere mostrar </p>
-                <img src="/images/strings/concatenar.png" alt="" class="code">
-            <h3>Template</h3>
-            <p class="concept-text">Es como ['f'] de python donde se usa {} para poner adentro la variable y lo exprese, en JS se usa asi
-                ${X} y comillas graves <strong>``</strong></p>
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/toFixed.png" alt="" class="code">
+            </div>
 
-            <img src="/images/strings/template string.png" alt="" class="code">
+            <h3>parseInt():</h3>
 
+            <p class="code-p">Convierte una cadena o un decimal a <span>entero</span></p>
 
-            <p class="concept-text">lo bueno de usar `` es que automaticamente asigna el espacio</p>
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/parseInt.png" alt="" class="code">
+            </div>
 
+            <h3>parseFLoat():</h3>
+            <p class="code-p">Convierte un string o entero a <span>decimal</span></p>
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/parseFloat.png" alt="" class="code">
+            </div>
 
-            <img src="/images/strings/ejemplo.png" alt="" class="code">
+            <h3>parseString():</h3>
+            <p class="code-p">Convierte un int o float a <span>String</span></p>
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/string.png " alt="" class="code">
+            </div>
 
-            <p class="concept-text">otro ejemplo de concatenacion:</p>
-
-            <img src="/images/strings/otra forma.png" alt="" class="code">
-
+            <h3>typeOf():</h3>
+            <p class="code-p">Se usa para conocer que <span>tipo de dato</span> contiene una variable</p>
+            <div class="col-lg-12 col-sm-12 text-center">
+                <img src="/images/Tipos de datos/bool, Num/typeof.png" alt="" class="code">
+            </div>
         </div>
     </section>
 
@@ -128,14 +152,14 @@
     <section id="button_lesson">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 button_lesson"><a href="/Avance/Tipos de datos/Strings/Strings.html"><button type="button"
-                            class="btn btn-primary nohover" id="direction"><i
-                                class="fa-solid fa-arrow-left"></i>Strings</button></a></div>
-                <div class="col-lg-6 button_lesson"><a href="/Avance/Tipos de datos/Datos Compuestos/Compuestos.html"><button
-                            type="button" class="btn btn-primary nohover" id="direction">Datos Compuestos<i
-                                class="fa-solid fa-arrow-right"></i></button></a></div>
+                <div class="col-lg-6 col-sm-12 button_lesson text-center"><a href="/Avance/Tipos de datos/Strings/Strings.html" type="button"
+                        class="btn btn-primary nohover" id="direction"><i class="fa-solid fa-arrow-left"></i>Strings</a>
+                </div>
+                <div class="col-lg-6 col-sm-12 button_lesson text-center"><a
+                        href="/Avance/Tipos de datos/Datos Compuestos/Compuestos.html" type="button" class="btn btn-primary nohover"
+                        id="direction">Datos Compuestos<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
             </div>
-        </div>
         </div>
     </section>
 

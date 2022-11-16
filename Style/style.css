@@ -288,7 +288,7 @@ text-ul{
 }
 .big-code{
   position: relative;
-  width: 85%;
+  width: 53%;
   /*margin-left: 8%;*/
 }
 
@@ -343,7 +343,7 @@ text-ul{
 .table th, td{
   
   padding: 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 .table th{
@@ -358,8 +358,8 @@ text-ul{
 }
 
 .table{
-  margin-left: 22%;
   width: 50%;
+  margin: 0 auto 2rem auto;
 }
 
 /* ADAPTACION A MOVILES */
@@ -374,6 +374,9 @@ text-ul{
   .Tittle-p{
     text-align: justify;
   }
+  .big-code{
+    width: 85%;
+  }
 }
 
 
@@ -385,6 +388,9 @@ text-ul{
   .profile-photo{
     width: 100%;
     margin-left: 1rem;
+  }
+  .big-code{
+    width: 95%;
   }
 }
 
@@ -435,7 +441,7 @@ text-ul{
   }
   .code{
       margin-top: 1rem;
-      width: 70%;
+      width: 90%;
   }
   .code-p{
     font-size: 1.1rem;
@@ -443,5 +449,8 @@ text-ul{
   }
   .profile-photo{
     width: 70%;
+  }
+  .big-code{
+    width: 100%;
   }
 }
