@@ -71,9 +71,10 @@
     <section class="concept">
         <div class="container-fluid">
             <h1 id="text-head">Condicionales:</h1>
-            <p class="concept-text">Es un conjunto de comandos que se ejecutan si una condicion es verdadera. en JS estan presentes tres tipos de condicionales:</span><br>
+            <p class="concept-text">Es un conjunto de comandos que se ejecutan si una condicion es verdadera. en JS
+                estan presentes tres tipos de condicionales:</span><br>
             <div class="col-lg-12 col-sm-12  text-center">
-                <img src="/images/Tipos de datos/Datos Compuestos/Ejemplo fnc.png" alt="" class="code">
+                <img src="/images/Estructuras de control/IF.png" alt="" class="big-code">
             </div>
         </div>
 
@@ -87,20 +88,34 @@
     <section class="color_1">
         <div class="container-fluid">
             <h1 id="text-head">If... Else</h1>
-            <p class="concept-text">Se inicia con un <span>IF</span> para saber que la condicion es verdadera, en que caso que no sea verdadera, seguira con <span>else</span> en caso que sea falso.<br>Si la condicion evalua mas de dos eventos, se usa else IF.</p>
+            <p class="concept-text">Se inicia con un <span>IF</span> para saber que la condicion es verdadera, en que
+                caso que no sea verdadera, seguira con <span>else</span> en caso que sea falso. Si la condicion
+                evalua mas de dos eventos, se usa <span>else IF.</span></p>
             <div class="col-lg-12 col-sm-12  text-center">
-                <img src="/images/Tipos de datos/Datos Compuestos/Ejemplo fnc.png" alt="" class="code">
+                <img src="/images/Estructuras de control/Diagrama CONDICION.png" alt="Diagrama IF" class="code" id="diagrama">     
             </div>
+            <div class="ratio ratio-16x9" id="responsive_video">
+                <video src="/vids/Condicionales/IF.mp4" title="IF video" allowfullscreen controls muted></video>
+            </div>
+
             <h1>Operador Ternario</h1>
-            <p class="concept-text">Es como el if.. else pero <span>Simplificad</span>, es decir, se una en usa sola linea, su estructura es la siguiente. <br> <span>condicion ? valor 1 : valor 2</span>
+            <p class="concept-text">Es como el if.. else pero <span>Simplificad</span>, es decir, se una en usa sola
+                linea, su estructura es la siguiente. <br> <span>condicion ? valor 1 : valor 2</span>
             </p>
-            <div class="col-lg-12 col-sm-12  text-center">
-                <img src="/images/Tipos de datos/Datos Compuestos/Ejemplo fnc.png" alt="" class="code">
+            <div class="ratio ratio-16x9" id="responsive_video">
+                <video src="/vids/Condicionales/Ternario.mp4" title="IF video" allowfullscreen controls muted></video>
             </div>
             <h1 id="text-head">Operador Switch</h1>
-            <p>Es un condicional que permite hacer multiples operaciones, y tomar decisiones en funcion de distintos estados de las variables.<br> Evalua una expresion, comparando el valor de esa expresion con una instancia llamada <span>Case</span>, y se ejecuta las declaraciones asosciadas a ese <span>Case</span>.</p>
             <div class="col-lg-12 col-sm-12  text-center">
-                <img src="/images/Tipos de datos/Datos Compuestos/Ejemplo fnc.png" alt="" class="code">
+                <img src="/images/Estructuras de control/4b3541c8-0aff-4dc6-9580-903958ac37fc.png" alt="" class="big-code" id="diagrama-case" >
+            </div>
+            <p class="concept-text">Es un condicional que permite hacer multiples operaciones, y tomar decisiones en
+                funcion de distintos estados de las variables. Evalua una expresion, comparando el valor de esa
+                expresion con una instancia llamada <span>Case</span>, y se ejecuta las declaraciones asosciadas a ese
+                <span>Case</span>.
+            </p>
+            <div class="ratio ratio-16x9" id="responsive_video">
+                <video src="/vids/Condicionales/Switch.mp4" title="IF video" allowfullscreen controls muted></video>
             </div>
     </section>
     </div>
@@ -111,11 +126,82 @@
     <section class="color_2">
         <div class="container-fluid">
             <h1>Ciclos</h1>
-            <p>Sirve para ejecutar un cico que se ejecuta un codigo indefinidamente.</p>
+            <p class="concept-text">Los ciclo sirven para ejecutar instrucciones indefinidamente.</p>
+            
+            <div class="col-lg-12 col-sm-12  text-center">
+                <img src="/images/Estructuras de control/DIAGRAMA WHILE.png" alt="Diagrama IF" class="code" id="diagrama">     
+            </div>
+
             <h2>While:</h2>
-            <p>Ejecuta un ciclo de sentencias mientras se cumpla una condicion</p>
+            <p class="concept-text">Ejecuta un ciclo de sentencias mientras se cumpla una condicion</p>
+            
+            <div class="ratio ratio-16x9" id="responsive_video">
+                <video src="/vids/Condicionales/While.mp4" title="IF video" allowfullscreen controls muted></video>
+            </div>
+
             <h2>Do while:</h2>
-            <p>Similar al while, solo que evalua la condicion al final.</p>
+            <p class="concept-text">Similar al while, solo que evalua la condicion al final.</p>
+
+            <div class="ratio ratio-16x9" id="responsive_video">
+                <video src="/vids/Condicionales/Do while.mp4" title="IF video" allowfullscreen controls muted></video>
+            </div>
+
+            <h2>Continue y Break:</h2>
+
+            <p class="concept-text"> La sentencia <span>continue</span> pasa a detener la ejecución del bloque del ciclo
+                y a evaluar
+                inmediatamente la condición inicial del bucle y la sentencia <span>break</span> como su nombre lo dice se usa para
+                romper el ciclo sin importar la condicion que este presente</p>
+
+                <div class="col-lg-12 col-sm-12  text-center">
+                    <img src="/images/Estructuras de control/BREAK&CONTINUE.png" alt="Diagrama IF" class="big-code">     
+                </div>
+
+            <h2>Ciclo <span id="tittle_span">FOR</span></h2>
+
+            <p class="concept-text">Estos bucles se ejecutan para obtener un valor distinto en cada iteración y realizar
+                una tarea a partir de su valor. En JAVASCRIPT existen tres tipos de ciclo de iteracion los cuales son
+                <span>FOR</span> (Clasico), <span>FOR IN</span> y <span>FOR OF</span>
+            </p>
+
+            <div class="col-lg-12 col-sm-12  text-center">
+                <img src="/images/Estructuras de control/DIAGRAMA FOR.png" alt="Diagrama IF" class="code" id="diagrama">     
+            </div>
+
+            <br>
+
+
+            <dl class="container-fluid">
+                <dt>
+                    <h2>For</h2>
+                </dt>
+                <dd>
+                    <p class="concept-text">Forma que se hacia un FOR antes del ECMAScript 6</span></p>
+                    <div class="ratio ratio-16x9" id="responsive_video">
+                        <video src="/vids/Condicionales/For antiguo.mp4" title="IF video" allowfullscreen controls muted></video>
+                    </div>
+                </dd>
+                <dt>
+                    <h2>For in</h2>
+                </dt>
+                <dd>
+                    <p class="concept-text">Recorre las propiedad de un objeto <span>(Solo sus propiedades)</span></p>
+                    <div class="ratio ratio-16x9" id="responsive_video">
+                        <video src="/vids/Condicionales/For In.mp4" title="IF video" allowfullscreen controls muted></video>
+                    </div>
+                </dd>
+                <dt>
+                    <h2>For of</h2>
+                </dt>
+                <dd>
+                    <p class="concept-text">Recorre los valores de un objeto iteralble <span>(Solo sus
+                            propiedades)</span></p>
+                            <div class="ratio ratio-16x9" id="responsive_video">
+                                <video src="/vids/Condicionales/For of.mp4" title="IF video" allowfullscreen controls muted></video>
+                            </div>
+                </dd>
+            </dl>
+
         </div>
     </section>
 
@@ -125,7 +211,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-sm-12 button_lesson text-center"><a href="/index.html" type="button"
-                        class="btn btn-primary nohover" id="direction"><i class="fa-solid fa-arrow-left"></i>Numeros, Bool y Null</a>
+                        class="btn btn-primary nohover" id="direction"><i class="fa-solid fa-arrow-left"></i>Numeros,
+                        Bool y Null</a>
                 </div>
                 <div class="col-lg-6 col-sm-12 button_lesson text-center"><a
                         href="/Avance/Tipos de datos/Strings/Strings.html" type="button" class="btn btn-primary nohover"

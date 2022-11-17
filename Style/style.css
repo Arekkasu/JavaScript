@@ -18,6 +18,7 @@ a{
 p{
     font-family: 'League Spartan', sans-serif;
     color: #94a1b2;
+    margin-bottom: 2rem;
 }
 
 span{
@@ -36,9 +37,23 @@ text-ul{
   margin-left: 100rem;
 }
 
+/* Multimedia */
 
 
 
+#responsive_video{
+  margin: 3rem auto 5rem auto;
+  max-width: 800px;
+}
+
+#diagrama{
+  max-width: 450px;
+}
+
+#diagrama-case{
+  width: 50%;
+  margin-bottom: 2rem;
+}
 
 /*PAGINA PRINCIPAL*/
 
@@ -104,7 +119,9 @@ text-ul{
   z-index: 0;
 }
 
-
+#tittle_span{
+  font-size: 22pt;
+}
 
 /*Animaciones Profile Photo*/
 
@@ -249,7 +266,9 @@ text-ul{
 }
 
 
-
+img{
+  border-radius: 5%;
+}
 
 
 
@@ -257,7 +276,7 @@ text-ul{
 
 .concept .container-fluid{
   background-color: #16161a;
-  padding: 2% 3rem 9% 3rem;
+  padding: 2% 3rem 5% 3rem;
 }
 
 .concept-text{
@@ -275,7 +294,7 @@ text-ul{
 
 .color_1 .container-fluid{
   background-color: #242629;
-  padding: 3% 3rem 9% 3rem;
+  padding: 2% 3rem 1% 3rem;
 }
 
 
@@ -289,6 +308,7 @@ text-ul{
 .big-code{
   position: relative;
   width: 53%;
+  margin: auto auto 3rem auto;
   /*margin-left: 8%;*/
 }
 
@@ -304,7 +324,7 @@ text-ul{
 
 .color_2 .container-fluid{
   background-color: #16161a;
-  padding: 3% 3rem 9% 3rem;
+  padding: 2% 3rem 1% 3rem;
 }
 
 /**/
@@ -403,6 +423,11 @@ text-ul{
     padding: 10% 3rem 9% 3rem;
   }
 
+
+  #diagrama-case{
+    width: 100%;
+    margin: 2rem;
+  }
 
   .color_2 .container-fluid{
     background-color: #16161a;

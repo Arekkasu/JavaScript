@@ -6,23 +6,33 @@ var numero_ejm_2 = 10;
 
 if(numero_ejm > numero_ejm_2){
     console.log('Es Mayor');
-    } else if(numero_ejm === numero_ejm_2){
+    } else if (numero_ejm === numero_ejm_2) {
     console.log('Es menor');
         } else {
             console.log('Son Iguales')
         }
 console.log('---------------------')
+
 //While
-var i = 0;
-while(i <= 10){
-    console.log(i)
-    if( i % 450 == 4){
-        break // si el modulo de i con 450 es igual 4 rompera el ciclo
+
+var i = 18;
+
+while(i > 0){
+
+    if( i % 2 == 0){
+        break
+        continue
+
+        console.log('Nunca se ejecutara esta linea')
     }
-    i++
+    if( i % 5 == 0){
+        console.log(`${i} es multiplo de 5.`)
+        break
+    }
+
+    i--
 
 }
-console.log(i)
 
 //For
 console.log('---------------------')
