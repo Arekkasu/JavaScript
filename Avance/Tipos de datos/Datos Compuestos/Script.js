@@ -4,8 +4,11 @@
 
 
     //Declaracion
-function Nombre(){
-    console.log('Esto es de la funcion de como declarar')
+
+function sumar(a, b){
+    
+    return a+b
+
 }
 
 //Como hacer el llamado a la funcion
@@ -43,6 +46,7 @@ var expresada = function(){
     
     console.log('Hola esto es una funcion expresada')
 }
+
 expresada()
 
 console.log('-----------------------------------------------------')
@@ -130,14 +134,14 @@ console.log('--------------------------------------------------')
 
 const user = {
     //Clave     //Valor
-    nombre:     'Alexander',
-    Apellido:   'Lozada',
+    nombre:     'Pepito',
+    Apellido:   'Perez',
     Edad:        17,
     Pasatiempos: ['Escuchar Musica', 'Tocar Guitarra', 
                 'Jugar Videojuegos', 'Ver anime'],
     Contact:    {
                 Correo: 'Arek3071@gmail.com',
-                Numero: +573177746603
+                Numero: +5770377746603
                     },
     saludo:     function ()     {
                     console.log(`Hola ${this.nombre} ${this.Apellido}, Edad ${17} años.`)

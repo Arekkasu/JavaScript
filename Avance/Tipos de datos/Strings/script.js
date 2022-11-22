@@ -1,7 +1,9 @@
 //Los 2 versiones de hacer String
 var espacio = ' ';
-let nombre = 'Alexander';      //1 - forma normal
-let apellido = 'Lozada';
+
+let nombre = 'Pepito'; 
+let apellido = 'Perez';
+
 console.log(nombre);
 console.log(apellido);
 
@@ -76,7 +78,7 @@ console.log(saludo) // Esta forma esta bien, pero puede ser confuso para entende
 
 console.log(espacio)
 
-//Template strings (el mejor)
+//Template strings
 
 let saludo2 = `Hola a todos, mi nombre es ${nombre} ${apellido}`;
 
@@ -97,10 +99,12 @@ console.log(espacio)
 
 
 //otras formas de concatenar
+
 let ejemplo_2 = '5';
     ejemplo_2 += '6';
     ejemplo_2 += '7';
     ejemplo_2 += '8';
     ejemplo_2 += '9';
     ejemplo_2 += '10';
+
 console.log(ejemplo_2)

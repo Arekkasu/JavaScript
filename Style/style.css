@@ -58,9 +58,49 @@ text-ul{
 /*PAGINA PRINCIPAL*/
 
 /*NAVBAR*/
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-color: rgba(22, 21, 6, 1);
+  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: rgb(255, 255, 255);
+  --bs-navbar-toggler-border-radius: 0.375rem;
+  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #nav-bar .container-fluid{
     padding: 0.5% 3%;
 }
+
+
+
+
 .navbar{
     background-color: #16161a;
 }
@@ -70,8 +110,7 @@ text-ul{
 .navbar-brand{
     font-family: 'The Nautigal', cursive;
     font-size: 2.2rem;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin: 10px auto 0 20px;
     color:#fffffe;
 }
 
@@ -301,7 +340,7 @@ img{
 /* Parte de imagenes*/
 .code{
   position: relative;
-  width: 35%;
+  width: 55%;
   margin-bottom: 2rem;
 
 }
@@ -311,6 +350,12 @@ img{
   margin: auto auto 3rem auto;
   /*margin-left: 8%;*/
 }
+
+
+#console{
+  border-radius: 0%;
+}
+
 
 /* Texto explicativo*/
 
@@ -466,7 +511,7 @@ img{
   }
   .code{
       margin-top: 1rem;
-      width: 90%;
+      width: 100%;
   }
   .code-p{
     font-size: 1.1rem;

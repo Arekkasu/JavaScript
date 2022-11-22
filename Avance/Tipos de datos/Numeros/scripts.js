@@ -1,4 +1,5 @@
 //Numeros: pueden declararse como
+
 var number_1 = 3.333;
 var number_2 = new Number(4);
 
@@ -37,6 +38,7 @@ console.log(
 
 
 // Booleanos
+
     //True
 let ejem_1 = true;
 let ejem_2 = {};
@@ -51,6 +53,7 @@ let ejem_10 = Infinity;
 let ejem_11 = -Infinity;
 
     //False
+
 let ejem_12 = false;
 let ejem_13 = null;
 let ejem_14 = undefined;

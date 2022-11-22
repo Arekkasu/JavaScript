@@ -1,21 +1,22 @@
 try{
-    console.log('En el try se agrega el codigo a evaluar')
-} catch(error){
-    console.log(error)
-}finally{
-    console.log('El bloque finally se ejecutara siempre al final de un try-catch')
-}
 
+    throw new Error('ERROR PERSONALIZADO')
+    
+} catch(error){
+
+    console.log('CATCH EJECUTA EL ERROR')
+
+}
 //Ejemplo
 
-let numero = prompt('Digite un numero que no sea mayor del 1 al 10');
+let numero = 20
+
     try{
             if(numero > 10){
                 throw new Error('El numero es mayor del rango')
             }
+    console.log('Rango permitido')
     } catch (error){
-        alert(`${error}`)
-    }finally{
-    console.log(numero)
+        console.log(`Se produjo el siguiente error:
+${error}`)
     }
-alert(`tu numero es ${numero}`)
