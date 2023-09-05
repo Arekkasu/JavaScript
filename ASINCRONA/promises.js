@@ -27,7 +27,7 @@ function Promesa(value){
 
 
 
-Promesa('Nd')
+Promesa(232323)
 	//PRIMERA EVALUACION
 	.then(obj => {
 	console.log("Inicio Promise");

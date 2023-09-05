@@ -134,7 +134,7 @@ console.log('--------------------------------------------------')
 
 const user = {
     //Clave     //Valor
-    nombre:     'Pepito',
+    nombre,
     Apellido:   'Perez',
     Edad:        17,
     Pasatiempos: ['Escuchar Musica', 'Tocar Guitarra', 
