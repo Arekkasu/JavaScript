@@ -72,7 +72,7 @@ persona[SALUDAR]()
 
 for (let propiedad in persona) {
 
-	console.log("ESTA IMPRIMIENDO LA PROPIEDAD"+''+propiedad)
+	console.log("ESTA IMPRIMIENDO LA PROPIEDAD"+' '+propiedad)
 	console.log(persona[propiedad])
 
 }
