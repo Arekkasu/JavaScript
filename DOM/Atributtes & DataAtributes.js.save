@@ -1,0 +1,14 @@
+//ATRIBUTOS DE LAS ETIQUTEAS
+// Y LOS VALORES DE SUS ATRIBUTOS
+// DATA-nombrequesea=""
+
+console.log("\n\n------ATRIBUTOS----\n\n\n\n")
+
+
+console.log("Obteniendo el valor del document.documentElement.lang es 'en' --> ", document.documentElement.lang)
+
+
+
+
+
+

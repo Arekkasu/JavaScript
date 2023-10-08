@@ -85,6 +85,7 @@ const obj3 = {
 }
 obj3.imprimir()
 
+// ESTO ES UNA CLASE
 function Persona (nombre) { 
 	this.nombre = nombre
 	//return console.log(this.nombre)

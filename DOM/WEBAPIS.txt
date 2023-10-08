@@ -1,0 +1,25 @@
+WEB APIS
+
+Dom: Document Object Model
+
+BOM: browser Object Model
+
+CSSOM: CSS Object Model
+
+
+DOM: manipulacion del html con JS
+
+CCSOM: manipulacion de css mediante JS
+
+BOM: No es API standard ya que cada navegador es distinto, 
+manipula el navegador con JS
+
+window al ser un objeto tiene navigator, donde navigator es un
+obj que controla las caracteristicas del navegador web,
+history,location,
+
+document dara la estructura del html
+
+
+COmo tal son como hay apis ya implementadas en Navegadores y otros
+en le que permiten que JS pueda manejarlos
