@@ -1,0 +1,16 @@
+:root{
+
+    /* declaracion variable */
+    --dark_background: #222;
+    --yellow_color: #f7df1e;
+
+}
+
+
+.link-dom{
+
+    color: #718f1d;
+    background-color: aliceblue;
+
+}
+
