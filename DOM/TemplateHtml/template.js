@@ -1,5 +1,5 @@
 const $cards = document.querySelector(".cards"),
-    $template = document.getElementById("template-card").content,
+    $template = document.getElementById("template-card").content, //CONTENIDO DEL TEMPLATE
     $fragment = document.createDocumentFragment(),
     cardContent = [
         {
@@ -26,6 +26,13 @@ const $cards = document.querySelector(".cards"),
 
 cardContent.forEach(el => {
 
+
+    /* 
+    * La razon por la que no aparece la etiqueta figure es debido a que $template
+    * solo es el contenido, lo cual figure ya tiene su valor de clase que es card, por lo cual
+    * no se le va modificar en el ciclo sino que solamente se modificara los necesarios
+    *
+    */
     $template.querySelector("img").setAttribute("src", el.img);
     $template.querySelector("img").setAttribute("alt", el.title);
     $template.querySelector("figcaption").textContent = el.title;
