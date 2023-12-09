@@ -20,7 +20,7 @@ $eventoSemantico.onclick = attHTML;
 // * el parametro es e --> evento 
 $eventoSemantico.onclick = function(e){
 
-   alert("Hola manejador de eventos semantico")
+   alert(1"Hola manejador de eventos semantico")
     console.log(e)
     console.log(event)
 
