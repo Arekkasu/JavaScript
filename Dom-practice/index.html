@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-dark>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Documents</title>
 
   
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
 
+  <!-- ESTILOS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+ <link rel="stylesheet" href="style.css">
+
+  <!--SCRIPT DE FONT AWESOME-->
+ <script src="https://kit.fontawesome.com/b7f27d0091.js" crossorigin="anonymous" defer></script>  
 </head>
 <body>
   <body>
@@ -30,8 +35,8 @@
   <nav class="menu">
     
   
-  <a href="#seccion1">Reloj Digintal y Alarma Sonora</a>
-  <a href="#seccion2">Seccion 2</a>
+  <a href="#seccion1">Reloj Digital y Alarma Sonora</a>
+  <a href="#seccion2">Eventos del Teclado</a>
   <a href="#seccion3">Seccion 3</a>
   <a href="#seccion4">Seccion 4</a>
   <a href="#seccion5">Seccion 5</a>
@@ -48,8 +53,11 @@
     <!-- BOTONES DEL RELOJ y ALARMA-->
     <div>
 
-      <button id="activar-reloj">Iniciar Reloj</button>
-      <button id="desactivar-reloj">Detener Reloj</button>
+      <button id="activar-reloj" class="btn">
+        <i class="fa-regular fa-clock"></i>
+        Iniciar Reloj
+      </button>
+      <button id="desactivar-reloj" class="btn">Detener Reloj</button>
       
       <!-- CUANDO SUCEDE LA ETIQUETA HTML ESTA DEBE TENER CONTROLES
       PARA QUE FUNCIONE POR LO CUAL QUEDARIA DE LA SIGUIETNE MANERA
@@ -57,26 +65,41 @@
       <audo src="/" contorls> </audio>
 
       -->
-      <button id="activar-alarma">Iniciar Alarma</button>
-      <button id="desactivar-alarma">Detener Alarma</button>  
+      <button id="activar-alarma" class="btn">Iniciar Alarma</button>
+      <button id="desactivar-alarma" class="btn">Detener Alarma</button>  
 
     </div>
     
   </section>
+  
   <section id="seccion2" class="section">
-    <h2>Seccion 2</h2>
+    <h2>Eventos del Teclado</h2>
+    <article class="stage">
+      <div class="ball"></div>
+    </article>
   </section>
+  
   <section id="seccion3" class="section">
-    <h2>Seccion 3</h2>
+    <h2>Cowntdown</h2>
+    <div id="cowntdown">
+      
+    </div>
   </section>
+  
   <section id="seccion4" class="section">
     <h2>Seccion 4</h2>
   </section>
+  
+
   <section id="seccion5" class="section">
     <h2>Seccion 5</h2>
   </section>
 </main>
   
+
+<button class="scroll-top-btn hidden">&#11014;</button>
+
+<button class="dark-theme-btn">🌙</button>
 
 <script src="index.js" type="module"></script>
 </body>
