@@ -1,0 +1,98 @@
+{
+  "armaduras_principales": [
+    {
+      "id": "1",
+      "nombre": "Light Armor",
+      "juego": "Mega Man X",
+      "image": "https://static.wikia.nocookie.net/esmegaman/images/f/f9/X1_xarmor.jpg/revision/latest?cb=20210529082015"
+    },
+    {
+      "id": "2",
+      "nombre": "Giga Armor",
+      "juego": "Mega Man X2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESpjc6LvYlw7S6XR2pU2HSnr0Km5WEvOeeA&s"
+    },
+    {
+      "id": "3",
+      "nombre": "Max Armor",
+      "juego": "Mega Man X3",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e04f0af-7190-4638-bcb6-d076cc19f427/d8gab2l-9a152038-40a7-4ffd-b106-1091e5ff45fe.png/v1/fill/w_717,h_1114,q_70,strp/megaman_x3_max_armor_ver_ke_by_redblaze4080_d8gab2l-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU5MCIsInBhdGgiOiJcL2ZcLzFlMDRmMGFmLTcxOTAtNDYzOC1iY2I2LWQwNzZjYzE5ZjQyN1wvZDhnYWIybC05YTE1MjAzOC00MGE3LTRmZmQtYjEwNi0xMDkxZTVmZjQ1ZmUucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kDCqrXTrhTLG3rXQFEi-94qUrZ7zyd5D2a5-4DqiaHI"
+    },
+    {
+      "id": "4",
+      "nombre": "Fourth Armor",
+      "juego": "Mega Man X4",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e04f0af-7190-4638-bcb6-d076cc19f427/d91ioo6-6c715109-70af-4f44-b580-bbe93a5cf0a2.png/v1/fill/w_716,h_1116,q_70,strp/megaman_x4_force_armor_sc_ver_ke_by_redblaze4080_d91ioo6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU5NSIsInBhdGgiOiJcL2ZcLzFlMDRmMGFmLTcxOTAtNDYzOC1iY2I2LWQwNzZjYzE5ZjQyN1wvZDkxaW9vNi02YzcxNTEwOS03MGFmLTRmNDQtYjU4MC1iYmU5M2E1Y2YwYTIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.CeBHMRxCXMM4nonsyMZl7flIKqBVVimTu8Vr_zBNXKU"
+    },
+    {
+      "id": "5",
+      "nombre": "Falcon Armor",
+      "juego": "Mega Man X5",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e04f0af-7190-4638-bcb6-d076cc19f427/d9bo1sq-e7c10c2a-1054-497d-808e-9a873395c17d.png/v1/fill/w_717,h_1114,q_70,strp/megaman_x5_falcon_armor_ver_ke_by_redblaze4080_d9bo1sq-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU5MCIsInBhdGgiOiJcL2ZcLzFlMDRmMGFmLTcxOTAtNDYzOC1iY2I2LWQwNzZjYzE5ZjQyN1wvZDlibzFzcS1lN2MxMGMyYS0xMDU0LTQ5N2QtODA4ZS05YTg3MzM5NWMxN2QucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.QKwicq1xCOP1tIbsTT_n8lG8qAyrjE2lQV9p03G1BgU"
+    },
+    {
+      "id": "6",
+      "nombre": "Gaea Armor",
+      "juego": "Mega Man X5",
+      "image": "https://i.pinimg.com/564x/43/a8/d9/43a8d9cba8c1347738c27a7b4cbcb2f8.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Blade Armor",
+      "juego": "Mega Man X6",
+      "image": "https://static.wikia.nocookie.net/esmegaman/images/3/3a/BladeArmor.jpg/revision/latest?cb=20210609172650"
+    },
+    {
+      "id": "8",
+      "nombre": "Shadow Armor",
+      "juego": "Mega Man X6",
+      "image": "https://i.pinimg.com/564x/a6/93/ae/a693ae33e7a42af4361c61378fd1ef9c.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Glide Armor",
+      "juego": "Mega Man X7",
+      "image": "https://i.pinimg.com/564x/39/b8/34/39b834c312dba67f49284d29074cebb1.jpg"
+    },
+    {
+      "id": "10",
+      "nombre": "Icarus Armor",
+      "juego": "Mega Man X8",
+      "image": "https://static.wikia.nocookie.net/esmegaman/images/e/e4/Icarus_Armor.png/revision/latest?cb=20120725233416"
+    },
+    {
+      "id": "11",
+      "nombre": "Hermes Armor",
+      "juego": "Mega Man X8",
+      "image": "https://static.wikia.nocookie.net/esmegaman/images/b/bd/Hermes_Armor.png/revision/latest?cb=20120725233337"
+    }
+  ],
+  "armaduras_adicionales": [
+    {
+      "id": "1",
+      "nombre": "Ultimate Armor",
+      "juego": ["Mega Man X4", "Mega Man X5", "Mega Man X6", "Mega Man X8"],
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/100c9027-58c4-4b19-91b5-7e8abb6ef2ff/de238sk-afdf74ed-c5a4-4c41-82dc-a7c6eb78c586.png/v1/fill/w_680,h_994,q_80,strp/megaman_x__edited_ultimate_armor_ver_ke_by_syntaxmusic_de238sk-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTk0IiwicGF0aCI6IlwvZlwvMTAwYzkwMjctNThjNC00YjE5LTkxYjUtN2U4YWJiNmVmMmZmXC9kZTIzOHNrLWFmZGY3NGVkLWM1YTQtNGM0MS04MmRjLWE3YzZlYjc4YzU4Ni5wbmciLCJ3aWR0aCI6Ijw9NjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.02jz3DOxIz0LE4pXzaoAbOnSTWfND2alY4iICgt85wY"
+    },
+    {
+      "id": "2",
+      "nombre": "Black Zero",
+      "juego": ["Mega Man X4", "Mega Man X5", "Mega Man X6", "Mega Man X8"],
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e04f0af-7190-4638-bcb6-d076cc19f427/d8mugq7-a66e162e-f5ad-456d-b77a-8dfa93735b67.png/v1/fill/w_717,h_1114,q_70,strp/black_zero_ver_ke_by_redblaze4080_d8mugq7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU5MCIsInBhdGgiOiJcL2ZcLzFlMDRmMGFmLTcxOTAtNDYzOC1iY2I2LWQwNzZjYzE5ZjQyN1wvZDhtdWdxNy1hNjZlMTYyZS1mNWFkLTQ1NmQtYjc3YS04ZGZhOTM3MzViNjcucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kCH9QBVUd6NNpNZVJ7Zzb9Vl9Nin5mxBauB4j46i8MQ"
+    },
+    {
+      "id": "3",
+      "nombre": "White Axl",
+      "juego": "Mega Man X8",
+      "image": "https://static.wikia.nocookie.net/esmegaman/images/6/60/WhiteAxl.png/revision/latest?cb=20120921191027"
+    },
+    {
+      "id": "4",
+      "nombre": "Hyper Max Armor",
+      "juego": "Mega Man X3",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e04f0af-7190-4638-bcb6-d076cc19f427/d8go3x9-66031588-fb8e-4d5c-9ce3-5cd545cc9ea5.png/v1/fill/w_717,h_1114,q_70,strp/megaman_x3_hyper_max_armor_ver_ke_by_redblaze4080_d8go3x9-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU5MCIsInBhdGgiOiJcL2ZcLzFlMDRmMGFmLTcxOTAtNDYzOC1iY2I2LWQwNzZjYzE5ZjQyN1wvZDhnbzN4OS02NjAzMTU4OC1mYjhlLTRkNWMtOWNlMy01Y2Q1NDVjYzllYTUucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.0HNSK3NHwJFWWMUiecUev_1_pPr0fASCNQxBX-GZF_o"
+
+    }
+  ]
+}
+

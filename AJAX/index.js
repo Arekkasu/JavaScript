@@ -44,10 +44,11 @@
       //res.text()
       //res.json() //---> convertir a propiedad JSON
       //Esto hara que se ejecute el catch
+      // esta validacion solo es valida en promesas
       return res.ok ? res.json() : Promise.reject(res);
     })
     .then((json) => {
-      console.log(json);
+      //console.log(json);
       //$fetch.innerHTML = json;
       json.forEach((el) => {
         const $li = document.createElement("li");
@@ -57,9 +58,110 @@
       $fetch.appendChild($fragment);
     })
     .catch((err) => {
-      console.log(err);
+      //console.log(err);
       let message = err.statusText || "Ocurrio un error";
       $fetch.innerHTML = `Error ${err.status}: ${message}`;
     })
     .finally(() => console.log("se ejecutara no importa el resultado"));
 })();
+
+//NOTE: LA MEJOR FORMA PARA EVITAR EL "THEN HELL" se usa ASYNC AWAIT
+
+(() => {
+  const $fetchAsync = document.getElementById("fetch-async"),
+    $fragment = document.createDocumentFragment();
+
+  console.log("ASINCORNO");
+
+  async function getData() {
+    try {
+      let res = await fetch("https://jsonplaceholder.typicode.com/todos"),
+        json = await res.json();
+
+      if (!res.ok)
+        throw {
+          status: res.status,
+          message: res.statusText,
+        };
+
+      json.forEach((el) => {
+        const $li = document.createElement("li");
+        $li.innerHTML = `${el.id} -- ${el.title} -- ${el.completed}`;
+        $fragment.appendChild($li);
+      });
+      $fetchAsync.appendChild($fragment);
+    } catch (err) {
+      console.log(err);
+      let message = err.statusText || "sucedio un error :)";
+      $fetchAsync.innerHTML = `Error ${err.status} ${message}`;
+    } finally {
+      console.log("FIN");
+    }
+  }
+
+  getData();
+})();
+
+//funcion con axios UNA LIBRERIA :);
+
+(() => {
+  const $axios = document.getElementById("axios"),
+    $fragment = document.createDocumentFragment();
+
+  axios.get("http://jsonplaceholder.typicode.com/todos").then((res) => {
+    
+    console.log(res)
+    let json = res.data;
+    console.log(json)
+    json.forEach((el) => {
+    const $li = document.createElement("li");
+    $li.innerHTML = `${el.id}--${el.title}--${el.completed}`;
+    $fragment.appendChild($li)
+      console.log(el)
+    $axios.appendChild($fragment);
+    })})
+    .catch((err) => {
+      let error = err.message || "Ocurrio un error :("
+      $axios.innerHTML = `<p>${err.name}: ${error}</p>`
+      console.log(err)
+    })
+  .finally(() => {
+      console.log("Fin de la ejecucion")
+    })
+})();
+
+
+//AXIOS CON ASYN AWAIT
+
+(() => {
+
+const $axiosAsync = document.getElementById("axios-async"),
+  $fragment = document.createDocumentFragment();
+
+async function getData() {
+  try {
+    let res = await axios.get("https://jsonplaceholder.typicode.com/todos"),
+      json = await res.data;
+
+    console.log(res, json);
+
+    json.forEach((el) => {
+      const $li = document.createElement("li");
+      $li.innerHTML = `${el.id} -- ${el.title} -- ${el.completed}`;
+      $fragment.appendChild($li);
+    });
+
+    $axiosAsync.appendChild($fragment);
+  } catch (err) {
+    console.log(err.response);
+    let message = err.response.statusText || "Ocurrió un error";
+    $axiosAsync.innerHTML = `Error ${err.response.status}: ${message}`;
+  } finally {
+    console.log("Esto se ejecutará independientemente del try... catch");
+  }
+}
+
+getData();
+
+
+})()

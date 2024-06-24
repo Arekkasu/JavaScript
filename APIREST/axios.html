@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h1>CRUD API REST CON AXIOS :D</h1>
+  <section class="crud">
+    <article>
+      <h2 class="crud-title">Agregar Armadura</h2>
+      <form action="" class="crud-form">
+        <input type="text" name="" placeholder="" required="required" /><br /><input type="text" name="" placeholder=""
+          required="required" /><br /><input type="text" name="" placeholder="" required="required" /><br />
+        <input type="submit" value="enviar" />
+        <input type="hidden" name="action" />
+      </form>
+    </article>
+    <article>
+      <h2></h2>
+      <table class="crud-table">
+        <thead>
+          <tr>
+            <th>nombre</th>
+            <th>juego</th>
+            <th>imagen</th>
+            <th>acciones</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+
+      </table>
+    </article>
+    <!-----
+    <article>
+      <h2>Agregar Armadura Especial</h2>
+      <form action="">
+        <input type="text" name="" placeholder="" required="required" /><br /><input type="text" name="" placeholder=""
+          required="required" /><br /><input type="text" name="" placeholder="" required="required" /><br />
+        <input type="submit" value="enviar" />
+      </form>
+    </article>
+    </section>-->
+    <template id="crud-template">
+      <tr>
+        <td class="name"></td>
+        <td class="constellation"></td>
+        <td>
+          <button class="edit">Editar</button>
+          <button class="delete">Eliminar</button>
+        </td>
+      </tr>
+    </template>
+    <script>
+      const d = document,
+        $table = d.querySelector(".crud-table"),
+        $form = d.querySelector(".crud-form"),
+        $title = d.querySelector(".crud-title"),
+        $template = d.getElementById("crud-template").content,
+        $fragment = d.createDocumentFragment();
+    </script>
+</body>
+
+</html>
