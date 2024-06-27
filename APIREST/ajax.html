@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title></title>
   <link href="style.css" rel="stylesheet" />
-  
+
 </head>
 
 <body>
@@ -15,10 +15,13 @@
     <article>
       <h2 class="crud-title">Agregar Armadura</h2>
       <form action="" class="crud-form">
-        <input type="text" name="" placeholder="" required="required" /><br /><input type="text" name="" placeholder=""
-          required="required" /><br /><input type="text" name="" placeholder="" required="required" /><br />
+        <input type="text" name="armadura" placeholder="armadura" required/>
+          <br />
+          <input type="text" name="juego"
+          placeholder="juego" required/><br /><input type="text" name="image" placeholder="imagen"
+          required/><br />
+        <input type="hidden" name="id" />
         <input type="submit" value="enviar" />
-        <input type="hidden" name="action" />
       </form>
     </article>
     <article>
@@ -51,8 +54,8 @@
       <tr>
         <td class="name"></td>
         <td class="game"></td>
-          <td class="image"><img src="" alt="armadura" width="100px" height="100px"></td>
-          <td>
+        <td class="image"><img src="" alt="armadura" width="100px" height="100px"></td>
+        <td>
           <button class="edit">Editar</button>
           <button class="delete">Eliminar</button>
         </td>
